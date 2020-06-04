@@ -3,7 +3,7 @@ import React from 'react';
 const Card=({id,name,email})=>{
     return (
         <div className='bg-light-green dib br1 pd1 ma2 tc bw3 grow'>
-            <img src={`https://robohash.org/${id}?set=set3`} alt="robots"/>
+            <img src={`https://robohash.org/${id}?set=any`} alt="robots"/>
             <div>
                 <h2>{name}</h2>
                 <p>{email}</p>

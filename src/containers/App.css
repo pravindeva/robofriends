@@ -10,3 +10,7 @@ h1 {
     font-weight: 100;
     color: black;
 }
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}

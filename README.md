@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bdbb1f2e-8113-4576-bdcc-f8f1fd052f7e/deploy-status)](https://app.netlify.com/sites/metalrobo/deploys)
+
 ## Available Scripts
 
 In the project directory, you can run:

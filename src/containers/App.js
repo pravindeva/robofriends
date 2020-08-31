@@ -36,6 +36,7 @@ class App extends Component {
     return !robots.length ? (
       <h1 className="tc"> loading </h1>
     ) : (
+<<<<<<< HEAD
       <div className="tc">
         <h1 className="f1"> Robo friends </h1>{" "}
         <SearchBox searchChange={this.onSearchChange} />{" "}
@@ -44,6 +45,16 @@ class App extends Component {
             <CardList robots={filteredRobots} />{" "}
           </Scroll>
         </ErrorBoundary>
+=======
+      <div className="tc scroll">
+        <h1 className="f1"> Robo friends </h1>
+        <SearchBox searchChange={this.onSearchChange} />
+        <Scroll>
+          <ErrorBoundary>
+            <CardList robots={filteredRobots} />
+          </ErrorBoundary>
+        </Scroll>
+>>>>>>> 56beeefc039653b961bbddb185b1659ef11231fe
       </div>
     );
   }
